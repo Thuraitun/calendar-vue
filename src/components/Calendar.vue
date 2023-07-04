@@ -47,7 +47,7 @@
             },
             prev() {
                 if(this.currentMonth === 0) {
-                    this.currentMonth == 11;
+                    this.currentMonth = 11;
                     this.currentYear--;
                 } else {
                     this.currentMonth--;
